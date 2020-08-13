@@ -1,0 +1,12 @@
+{
+  "prefix": ".",
+  "token": "TokenBot",
+  "owners": ["391697907667042304"],
+  "database": {
+    "host": "127.0.0.1",
+    "user": "postgres",
+    "database": "mydatabase",
+    "password": "password",
+    "port": 5432
+  }
+}
