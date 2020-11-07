@@ -1,7 +1,7 @@
 'use strict';
 
 const CommandsManager = require('./utils/classes/commands/CommandsManager');
-const DatabaseManager = require('./utils/classes/DatabaseManager');
+const DatabaseManager = require('./utils/classes/databases/Postgres');
 const { Client } = require('discord.js');
 const { join } = require('path');
 const { readdirSync } = require('fs');
