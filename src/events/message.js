@@ -7,7 +7,7 @@ module.exports = (client, message) => {
         || !message.content.startsWith(client.prefix)
     ) return;
 
-    let args = message.content.slice(client.prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(client.prefix.length).trim().split(/ +/g);
     const command = client.commandManager.getCommand(args.shift());
     if (!command) return;
 
